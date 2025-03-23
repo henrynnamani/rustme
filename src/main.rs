@@ -1,9 +1,7 @@
 fn main() {
-    println!("{}", is_even(3));
-}
+    let mut name  = "Henry";
 
-pub fn is_even(number: u8) -> bool {
-    let digit: u8 = number % 2;
+    name = "Hellen";
 
-    digit == 0
+    println!("Hello, {}", name);
 }
