@@ -1,5 +1,9 @@
 fn main() {
-    let names = ("Henry", "Felix", "Felicia");
+    println!("{}", is_even(3));
+}
 
-    println!("I love {}", names.1);
+pub fn is_even(number: u8) -> bool {
+    let digit: u8 = number % 2;
+
+    digit == 0
 }
