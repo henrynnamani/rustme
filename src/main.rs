@@ -1,8 +1,5 @@
 fn main() {
-    let _first_name = "Henry";
-    let _last_name = "Nnamani";
+    let names = ("Henry", "Felix", "Felicia");
 
-    let account_balance:i8 = -10;
-
-    println!("{}", account_balance);
+    println!("I love {}", names.1);
 }
